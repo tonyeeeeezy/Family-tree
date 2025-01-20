@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiore Family Tree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="family-tree">
+        <h1>Fiore Family Tree</h1>
+        <div class="tree">
+            <div class="person" onclick="showDetails('antonio-fiore')">
+                <span>Antonio Fiore</span>
+                <div id="antonio-fiore" class="details">
+                    <p>Born: August 1, 1898, Angri, Italy</p>
+                    <p>Died: March 16, 1946</p>
+                    <p>Spouse: Josephine Desiderio</p>
+                    <p>Children: Anthony J. Fiore Jr., Rose Fiore, Nancy Fiore, Louis Anthony Fiore</p>
+                </div>
+            </div>
+            <div class="person" onclick="showDetails('stephen-fiore')">
+                <span>Stephen Fiore</span>
+                <div id="stephen-fiore" class="details">
+                    <p>Born: October 19, 1963, Brooklyn, New York</p>
+                    <p>Spouse: Dina Richerme</p>
+                    <p>Children: Anthony Fiore, Lauren Fiore</p>
+                </div>
+            </div>
+            <!-- Add more family members here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
